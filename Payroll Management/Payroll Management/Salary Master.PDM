@@ -1,0 +1,289 @@
+[Root]
+Most Recent Package=Standard Setup Package 2
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\Naveen\Sowil Salary Package\Package
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+C:\WINDOWS\SYSTEM\COMCT332.OCX=
+
+[Package|Standard Setup Package 1|Files Added]
+D:\Naveen\Sowil Salary Package\SowilData.mdb=
+
+[Package|Standard Setup Package 1|Files Removed]
+
+[Package|Standard Setup Package 1|Files In Project]
+D:\Naveen\Sowil Salary Package\Salary Master.exe=Yes
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM\MSFLXGRD.OCX=Yes
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=Yes
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=Yes
+C:\WINDOWS\SYSTEM\MSCOMCT2.OCX=Yes
+C:\WINDOWS\SYSTEM\RICHTX32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\WINDOWS\SYSTEM\MSCHRT20.OCX=Yes
+C:\WINDOWS\SYSTEM\MSCOMM32.OCX=Yes
+C:\WINDOWS\SYSTEM\MSDATGRD.OCX=Yes
+C:\WINDOWS\SYSTEM\MSSTDFMT.DLL=Yes
+C:\WINDOWS\SYSTEM\MSDATLST.OCX=Yes
+C:\WINDOWS\SYSTEM\COMCT332.OCX=Yes
+C:\WINDOWS\SYSTEM\MSADODC.OCX=Yes
+C:\WINDOWS\SYSTEM\MSHFLXGD.OCX=Yes
+C:\Program Files\Common Files\designer\MSDERUN.DLL=Yes
+C:\WINDOWS\SYSTEM\MSDBRPTR.DLL=Yes
+C:\WINDOWS\SYSTEM\MSBIND.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+D:\Naveen\Sowil Salary Package\SowilData.mdb=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+D:\Naveen\Sowil Salary Package\Salary Master.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSFLXGRD.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMCT2.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\RICHTX32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSCHRT20.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMM32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSDATGRD.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSDATLST.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\COMCT332.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSADODC.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSHFLXGD.OCX=$(WinSysPath)
+C:\Program Files\Common Files\designer\MSDERUN.DLL=$(CommonFiles)\designer
+C:\WINDOWS\SYSTEM\MSDBRPTR.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSBIND.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\Naveen\Sowil Salary Package\SowilData.mdb=$(AppPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+D:\Naveen\Sowil Salary Package\Salary Master.exe=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+D:\Naveen\Sowil Salary Package\SowilData.mdb=Yes
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=SOWILSalary
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=SOWILSalary
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|SOWILSalary]
+Icon1="Salary Master.EXE"
+Title1=SOWILSalary
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=D:\Naveen\Sowil Salary Package\Package
+ProjectFolder=D:\Naveen\Sowil Salary Package
+ServerSideCab=
+File1=D:\Naveen\Sowil Salary Package\Package\setup.exe
+File2=D:\Naveen\Sowil Salary Package\Package\Setup.Lst
+File3=D:\Naveen\Sowil Salary Package\Package\Salary Master.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Standard Setup Package 2|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\Naveen\Personal\Sowil Salary Package\Package
+
+[Package|Standard Setup Package 2|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 2|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 2|Files Found]
+
+[Package|Standard Setup Package 2|Files Released]
+SowilData.mdb=
+
+[Package|Standard Setup Package 2|Missing Dependency Information]
+C:\WINDOWS\SYSTEM32\MSCOMCT2.OCX=
+C:\WINDOWS\SYSTEM32\MSCOMCTL.OCX=
+C:\WINDOWS\SYSTEM32\COMDLG32.OCX=
+C:\WINDOWS\SYSTEM32\MSFLXGRD.OCX=
+C:\WINDOWS\SYSTEM\SHDOC401.DLL=
+C:\Program Files\Common Files\SYSTEM\ADO\msado21.tlb=
+
+[Package|Standard Setup Package 2|Out-of-Date Dependency Information]
+C:\WINDOWS\SYSTEM\COMCT332.OCX=
+C:\WINDOWS\SYSTEM\MSHFLXGD.OCX=
+C:\WINDOWS\SYSTEM\MSADODC.OCX=
+C:\WINDOWS\SYSTEM\MSDATGRD.OCX=
+C:\WINDOWS\SYSTEM\mschrt20.ocx=
+C:\WINDOWS\SYSTEM\RICHTX32.OCX=
+C:\WINDOWS\SYSTEM\MSCOMCT2.OCX=
+C:\WINDOWS\SYSTEM\Mscomctl.ocx=
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=
+C:\WINDOWS\SYSTEM\scrrun.dll=
+C:\WINDOWS\SYSTEM\msstdfmt.dll=
+C:\WINDOWS\SYSTEM\MSDBRPTR.DLL=
+
+[Package|Standard Setup Package 2|Files Added]
+sowildata.mdb=
+
+[Package|Standard Setup Package 2|Files Removed]
+
+[Package|Standard Setup Package 2|Files In Project]
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Common Files\designer\MSDERUN.DLL=Yes
+C:\WINDOWS\SYSTEM\MSDBRPTR.DLL=Yes
+C:\WINDOWS\SYSTEM\MSSTDFMT.DLL=Yes
+C:\WINDOWS\SYSTEM\MSBIND.DLL=Yes
+C:\WINDOWS\SYSTEM\SHDOC401.DLL=Yes
+C:\WINDOWS\SYSTEM\RICHTX32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\WINDOWS\SYSTEM\MSCHRT20.OCX=Yes
+C:\WINDOWS\SYSTEM\MSCOMM32.OCX=Yes
+C:\WINDOWS\SYSTEM\MSDATGRD.OCX=Yes
+C:\WINDOWS\SYSTEM\MSDATLST.OCX=Yes
+C:\WINDOWS\SYSTEM\COMCT332.OCX=Yes
+C:\WINDOWS\SYSTEM\MSADODC.OCX=Yes
+C:\WINDOWS\SYSTEM\MSHFLXGD.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+D:\Naveen\Personal\Payroll Management\Payroll Management\Salary Master.exe=Yes
+C:\Program Files\Common Files\SYSTEM\ADO\msado21.tlb=Yes
+C:\WINDOWS\SYSTEM\scrrun.dll=Yes
+C:\WINDOWS\SYSTEM\MSVCRT.DLL=Yes
+C:\WINDOWS\SYSTEM\MSFLXGRD.OCX=Yes
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=Yes
+C:\WINDOWS\SYSTEM\Mscomctl.ocx=Yes
+C:\WINDOWS\SYSTEM\MSCOMCT2.OCX=Yes
+
+[Package|Standard Setup Package 2|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 2|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 2|Install Locations]
+D:\Naveen\Personal\Sowil Salary Package\Salary Master.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Common Files\designer\MSDERUN.DLL=$(CommonFiles)\designer
+C:\WINDOWS\SYSTEM\MSDBRPTR.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSBIND.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\SHDOC401.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\MSFLXGRD.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\MSCOMCT2.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\RICHTX32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSCHRT20.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMM32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSDATGRD.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSDATLST.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\COMCT332.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSADODC.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSHFLXGD.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\Naveen\Personal\Sowil Salary Package\SowilData.mdb=$(AppPath)
+D:\Naveen\Personal\Payroll Management\Payroll Management\Salary Master.exe=$(AppPath)
+C:\Program Files\Common Files\SYSTEM\ADO\msado21.tlb=$(WinSysPath)
+C:\WINDOWS\SYSTEM\scrrun.dll=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSVCRT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSFLXGRD.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\Mscomctl.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMCT2.OCX=$(WinSysPath)
+
+[Package|Standard Setup Package 2|Configure Shared Files]
+Applicable=Yes
+D:\Naveen\Personal\Sowil Salary Package\Salary Master.exe=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+D:\Naveen\Personal\Sowil Salary Package\SowilData.mdb=Yes
+D:\Naveen\Personal\Payroll Management\Payroll Management\Salary Master.exe=Yes
+
+[Package|Standard Setup Package 2|Distribution]
+Type=single
+Size=
+Title=Salary Manager
+
+[Package|Standard Setup Package 2|IconGroups]
+Group0=Salary Manager
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 2|Salary Manager]
+Icon1="Salary Master.exe"
+Title1=Salary Manager
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 2|Package]
+PackageFolder=D:\Naveen\Personal\Sowil Salary Package\Package
+ProjectFolder=D:\Naveen\Personal\Payroll Management\Payroll Management
+ServerSideCab=
+File1=D:\Naveen\Personal\Sowil Salary Package\Package\setup.exe
+File2=D:\Naveen\Personal\Sowil Salary Package\Package\Setup.Lst
+File3=D:\Naveen\Personal\Sowil Salary Package\Package\Salary Master.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
